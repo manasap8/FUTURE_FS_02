@@ -6,11 +6,12 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Express](https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-northlightcrm.netlify.app-10B981?style=for-the-badge&logo=netlify&logoColor=white)](https://northlightcrm.netlify.app/admin)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-northlightcrm.netlify.app-10B981?style=for-the-badge&logo=netlify&logoColor=white)](https://northlightcrm.netlify.app/)
 
 > **Task Reference**: Future Intern — Full Stack Web Development Internship (`FUTURE_FS_02`)  
 > **Author**: Manasa P ([@manasap8](https://github.com/manasap8))  
-> **Live Website**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
+> **Live Website**: [https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)  
+> **Admin Portal**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
 
 ---
 
@@ -174,7 +175,7 @@ This repository includes ready-to-deploy Netlify configuration (`netlify.toml` a
 4. In **Site configuration ➔ Environment variables**, configure:
    - `APP_URL`: `https://northlightcrm.netlify.app`
    - `ADMIN_NOTIFICATION_EMAIL`: `manu@gmail.com`
-5. Click **"Deploy site"**. The live site is served at: **[https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)**
+5. Click **"Deploy site"**. The live site is served at: **[https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)** (Admin Dashboard: **[/admin](https://northlightcrm.netlify.app/admin)**)
 
 ### Deploying to Vercel
 This repository also includes first-class support for **Vercel** serverless deployments (`vercel.json` and `/api/index.ts`).
@@ -246,6 +247,6 @@ To access the administrative pipeline dashboard, click **"Pipeline Login"** in t
 Developed as part of the **Future Intern Full-Stack Web Development Internship (`FUTURE_FS_02`)**.
 
 * **Developer**: Manasa P
-* **Live Website**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
-* **Public Intake Portal**: [https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)
+* **Live Website**: [https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)
+* **Admin Dashboard**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
 * **Repository**: [https://github.com/manasap8/FUTURE_FS_02](https://github.com/manasap8/FUTURE_FS_02)
