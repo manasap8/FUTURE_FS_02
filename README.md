@@ -6,11 +6,11 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Express](https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-northlight--crm.ai.studio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white)](https://northlight-crm.ai.studio)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-northlightcrm.netlify.app-10B981?style=for-the-badge&logo=netlify&logoColor=white)](https://northlightcrm.netlify.app/admin)
 
 > **Task Reference**: Future Intern — Full Stack Web Development Internship (`FUTURE_FS_02`)  
 > **Author**: Manasa P ([@manasap8](https://github.com/manasap8))  
-> **Live Website**: [https://northlight-crm.ai.studio](https://northlight-crm.ai.studio)
+> **Live Website**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
 
 ---
 
@@ -160,17 +160,30 @@ The server will start at: **`http://localhost:3000`**
 
 ---
 
-## 🚀 Deploying to Vercel
+## 🚀 Deploying to Netlify & Vercel
 
-This repository includes first-class support for **Vercel** serverless deployments out-of-the-box (`vercel.json` and `/api/index.ts`).
+### Deploying to Netlify (Live Deployment)
+This repository includes ready-to-deploy Netlify configuration (`netlify.toml` and `netlify/functions/api.ts`).
+
+1. Push your repository to GitHub.
+2. In [Netlify](https://app.netlify.com/), click **"Add new site" ➔ "Import an existing project"**.
+3. Select your repository. Netlify auto-detects:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+   - **Functions directory**: `netlify/functions`
+4. In **Site configuration ➔ Environment variables**, configure:
+   - `APP_URL`: `https://northlightcrm.netlify.app`
+   - `ADMIN_NOTIFICATION_EMAIL`: `manu@gmail.com`
+5. Click **"Deploy site"**. The live site is served at: **[https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)**
+
+### Deploying to Vercel
+This repository also includes first-class support for **Vercel** serverless deployments (`vercel.json` and `/api/index.ts`).
 
 1. Push your repository to GitHub.
 2. In [Vercel](https://vercel.com), click **"Add New..." ➔ "Project"** and select your repository.
 3. Keep the default settings (**Framework**: Vite, **Output Directory**: `dist`).
-4. (Optional) In the **Environment Variables** panel, add:
-   - `APP_URL`: Your Vercel production URL (e.g. `https://your-project.vercel.app`)
-   - `ADMIN_NOTIFICATION_EMAIL`: `manu@gmail.com`
-5. Click **"Deploy"**. Both the Vite frontend and the `/api` Express backend will be deployed seamlessly with zero 404 errors!
+4. (Optional) In the **Environment Variables** panel, add `APP_URL` and `ADMIN_NOTIFICATION_EMAIL`.
+5. Click **"Deploy"**. Both the Vite frontend and the `/api` Express backend will deploy seamlessly!
 
 ---
 
@@ -233,5 +246,6 @@ To access the administrative pipeline dashboard, click **"Pipeline Login"** in t
 Developed as part of the **Future Intern Full-Stack Web Development Internship (`FUTURE_FS_02`)**.
 
 * **Developer**: Manasa P
-* **Live Website**: [https://northlight-crm.ai.studio](https://northlight-crm.ai.studio)
+* **Live Website**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
+* **Public Intake Portal**: [https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)
 * **Repository**: [https://github.com/manasap8/FUTURE_FS_02](https://github.com/manasap8/FUTURE_FS_02)
