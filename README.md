@@ -247,5 +247,4 @@ Developed as part of the **Future Intern Full-Stack Web Development Internship (
 
 * **Developer**: Manasa P
 * **Live Website**: [https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)
-* **Admin Dashboard**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
 * **Repository**: [https://github.com/manasap8/FUTURE_FS_02](https://github.com/manasap8/FUTURE_FS_02)
