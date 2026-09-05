@@ -4,12 +4,51 @@
       "id": "usr_admin_01",
       "name": "Manasa",
       "email": "manu@gmail.com",
-      "password_hash": "9a6a9c27bfb802c2e7f39d5975a5f5ee:69eff9ed959b9b8c2eecf6ff5352aabe44a5aa4d0654560d85c1f7b281cc1cda871e57368e22d4c0c321abb2b3ade25bbf892ff1180b81d828be1d0b02547033",
+      "password_hash": "614b2dbb3ce4b3eb26a87b83d91a676c:e550545f0364046519c6135ab285e78e2dbbb9c531a7ee9c072fec953e217b05f259cd20ed06964582776a7ed1c32acd78c78066ba6d063c6bf115eaf897186f",
       "role": "admin",
       "created_at": "2026-07-21T03:55:18.578Z"
     }
   ],
   "leads": [
+    {
+      "id": "lead_mto2u45a_n5bi",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "phone": null,
+      "company": null,
+      "message": "Inquiry project test",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-05T07:44:10.366Z",
+      "updated_at": "2026-09-05T07:44:10.366Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mto2ro7v_ej4e",
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": null,
+      "company": null,
+      "message": "Hello project test",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-05T07:42:16.411Z",
+      "updated_at": "2026-09-05T07:42:16.411Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mto21jxv_moeq",
+      "name": "bhumi",
+      "email": "bhumi@gmail.com",
+      "phone": null,
+      "company": null,
+      "message": "[Focus: Codebase Audit]",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-05T07:21:57.811Z",
+      "updated_at": "2026-09-05T07:21:57.811Z",
+      "converted_at": null
+    },
     {
       "id": "lead_mtnwnls3_jeqs",
       "name": "nikil patel",
@@ -292,6 +331,48 @@
     }
   ],
   "email_notifications": [
+    {
+      "id": "notif_mto2u45l_0gu7",
+      "lead_id": "lead_mto2u45a_n5bi",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: Jane Doe",
+      "lead_name": "Jane Doe",
+      "lead_email": "jane@example.com",
+      "lead_company": null,
+      "lead_message": "Inquiry project test",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mto2u45a_n5bi",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T07:44:10.377Z"
+    },
+    {
+      "id": "notif_mto2ro86_fi90",
+      "lead_id": "lead_mto2ro7v_ej4e",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: Test User",
+      "lead_name": "Test User",
+      "lead_email": "test@example.com",
+      "lead_company": null,
+      "lead_message": "Hello project test",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mto2ro7v_ej4e",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T07:42:16.422Z"
+    },
+    {
+      "id": "notif_mto21jyr_ss2v",
+      "lead_id": "lead_mto21jxv_moeq",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: bhumi",
+      "lead_name": "bhumi",
+      "lead_email": "bhumi@gmail.com",
+      "lead_company": null,
+      "lead_message": "[Focus: Codebase Audit]",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mto21jxv_moeq",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T07:21:57.843Z"
+    },
     {
       "id": "notif_mto1rb56_o582",
       "lead_id": "lead_mto1rb4p_gpfz",

@@ -846,14 +846,22 @@ function requireAuth(req, res, next) {
 var app = express();
 app.use(express.json());
 app.use((req, _res, next) => {
+  if (req.url.startsWith("/.netlify/functions/api")) {
+    req.url = req.url.replace("/.netlify/functions/api", "/api");
+    if (req.url === "" || req.url === "/") {
+      req.url = "/api";
+    }
+  }
   const queryPath = req.query?.path || "";
   const matchedPath = req.headers["x-matched-path"] || "";
-  if (req.url === "/api" || req.url.startsWith("/api?") || req.url === "/api/") {
-    if (queryPath) {
-      req.url = queryPath.startsWith("/") ? `/api${queryPath}` : `/api/${queryPath}`;
-    } else if (matchedPath && matchedPath.startsWith("/api/")) {
-      req.url = matchedPath;
-    }
+  if (queryPath) {
+    const cleanPath = queryPath.startsWith("/") ? queryPath : `/${queryPath}`;
+    req.url = cleanPath.startsWith("/api") ? cleanPath : `/api${cleanPath}`;
+  } else if (matchedPath && matchedPath.startsWith("/api/")) {
+    req.url = matchedPath;
+  }
+  if (req.url.startsWith("/admin") || req.url.startsWith("/auth") || req.url.startsWith("/health") || req.url.startsWith("/leads")) {
+    req.url = `/api${req.url}`;
   }
   next();
 });

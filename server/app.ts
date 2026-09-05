@@ -80,19 +80,37 @@ function requireAuth(req: AuthenticatedRequest, res: Response, next: NextFunctio
 const app = express();
 app.use(express.json());
 
-// Normalize URL in case Vercel rewrote /api/(.*) or forwarded with query params
+// Normalize URL across local dev, Vite, Vercel, and Netlify Functions
 app.use((req: Request, _res: Response, next: NextFunction) => {
+  // 1. Handle Netlify functions path rewrite
+  if (req.url.startsWith('/.netlify/functions/api')) {
+    req.url = req.url.replace('/.netlify/functions/api', '/api');
+    if (req.url === '' || req.url === '/') {
+      req.url = '/api';
+    }
+  }
+
+  // 2. Handle Vercel query path rewrites (e.g. /api?path=admin/leads or /?path=admin/leads)
   const queryPath = (req.query?.path as string) || '';
   const matchedPath = (req.headers['x-matched-path'] as string) || '';
 
-  // If request is directed to /api with a subpath query or matched-path
-  if (req.url === '/api' || req.url.startsWith('/api?') || req.url === '/api/') {
-    if (queryPath) {
-      req.url = queryPath.startsWith('/') ? `/api${queryPath}` : `/api/${queryPath}`;
-    } else if (matchedPath && matchedPath.startsWith('/api/')) {
-      req.url = matchedPath;
-    }
+  if (queryPath) {
+    const cleanPath = queryPath.startsWith('/') ? queryPath : `/${queryPath}`;
+    req.url = cleanPath.startsWith('/api') ? cleanPath : `/api${cleanPath}`;
+  } else if (matchedPath && matchedPath.startsWith('/api/')) {
+    req.url = matchedPath;
   }
+
+  // 3. If a serverless adapter stripped '/api' (e.g. req.url is /admin/..., /auth/..., /health, /leads)
+  if (
+    req.url.startsWith('/admin') ||
+    req.url.startsWith('/auth') ||
+    req.url.startsWith('/health') ||
+    req.url.startsWith('/leads')
+  ) {
+    req.url = `/api${req.url}`;
+  }
+
   next();
 });
 
