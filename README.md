@@ -11,7 +11,6 @@
 > **Task Reference**: Future Intern — Full Stack Web Development Internship (`FUTURE_FS_02`)  
 > **Author**: Manasa P ([@manasap8](https://github.com/manasap8))  
 > **Live Website**: [https://northlightcrm.netlify.app/](https://northlightcrm.netlify.app/)  
-> **Admin Portal**: [https://northlightcrm.netlify.app/admin](https://northlightcrm.netlify.app/admin)
 
 ---
 
