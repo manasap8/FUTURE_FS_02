@@ -1,0 +1,8 @@
+{
+  "name": "Northlight CRM",
+  "description": "Lead management CRM and client pipeline dashboard for creative studios and freelance agencies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "Manasa",
+      "email": "manu@gmail.com",
+      "password_hash": "9a6a9c27bfb802c2e7f39d5975a5f5ee:69eff9ed959b9b8c2eecf6ff5352aabe44a5aa4d0654560d85c1f7b281cc1cda871e57368e22d4c0c321abb2b3ade25bbf892ff1180b81d828be1d0b02547033",
+      "role": "admin",
+      "created_at": "2026-07-21T03:55:18.578Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_mtnwnls3_jeqs",
+      "name": "nikil patel",
+      "email": "nikil@gmail.com",
+      "phone": "8154741620",
+      "company": "gogreen.co",
+      "message": "[Focus: Full-Stack Web App]",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-05T04:51:08.931Z",
+      "updated_at": "2026-09-05T04:51:08.931Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mtnvopxa_zjk1",
+      "name": "neha sharma",
+      "email": "nehasharma@gmail.com",
+      "phone": "923117519155",
+      "company": "nexon.co",
+      "message": "[Focus: Full-Stack Web App]",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-05T04:24:01.342Z",
+      "updated_at": "2026-09-05T04:24:01.342Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mtnvl71p_lmk9",
+      "name": "varunkumar",
+      "email": "varunkumar@gmail.com",
+      "phone": null,
+      "company": null,
+      "message": "[Focus: Brand Architecture]",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-05T04:21:16.909Z",
+      "updated_at": "2026-09-05T04:21:16.909Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mtnviy3f_72vg",
+      "name": "arun",
+      "email": "arun@gmail.com",
+      "phone": null,
+      "company": null,
+      "message": "[Focus: Design System & Figma]",
+      "source": "website",
+      "status": "contacted",
+      "created_at": "2026-09-05T04:19:31.995Z",
+      "updated_at": "2026-09-05T04:20:21.992Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mtmgauyp_3syf",
+      "name": "Marcus Vance",
+      "email": "marcus@vancecreative.com",
+      "phone": "+1 (555) 349-1029",
+      "company": "Vance Design Co",
+      "message": "Looking for a full brand overhaul and design system.",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-04T04:25:34.273Z",
+      "updated_at": "2026-09-04T04:25:34.273Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mtmfzbny_gkcp",
+      "name": "anu",
+      "email": "anu@gmail.com",
+      "phone": null,
+      "company": null,
+      "message": "marketing website",
+      "source": "website",
+      "status": "converted",
+      "created_at": "2026-09-04T04:16:36.046Z",
+      "updated_at": "2026-09-04T04:42:57.820Z",
+      "converted_at": "2026-09-04T04:42:57.820Z"
+    },
+    {
+      "id": "lead_mtmfw4p6_6ht5",
+      "name": "Amara Osei",
+      "email": "amara@apex-ventures.io",
+      "phone": "+1-555-0182",
+      "company": "Apex Ventures",
+      "message": "We are looking to overhaul our digital brand architecture ahead of our Series B launch.",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-04T04:14:07.050Z",
+      "updated_at": "2026-09-04T04:14:07.050Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_mtmfb04g_z4xp",
+      "name": "Julian Thorne",
+      "email": "julian@thorne-advisory.com",
+      "phone": "+1 415 220 9811",
+      "company": "Thorne Advisory",
+      "message": "We are looking for a complete design system and responsive web portal for our advisory clients.",
+      "source": "website",
+      "status": "converted",
+      "created_at": "2026-09-04T03:57:41.344Z",
+      "updated_at": "2026-09-04T04:08:27.678Z",
+      "converted_at": "2026-09-04T04:08:27.678Z"
+    },
+    {
+      "id": "lead_01",
+      "name": "Alexander Wright",
+      "email": "awright@vertexdesign.co",
+      "phone": "+1 (415) 890-2134",
+      "company": "Vertex Studio",
+      "message": "We are redesigning our enterprise analytics suite and looking for an experienced product design and engineering partner for Q4.",
+      "source": "website",
+      "status": "converted",
+      "created_at": "2026-08-16T03:55:18.578Z",
+      "updated_at": "2026-08-31T03:55:18.578Z",
+      "converted_at": "2026-08-31T03:55:18.578Z"
+    },
+    {
+      "id": "lead_02",
+      "name": "Elena Rostova",
+      "email": "elena@luminahealth.io",
+      "phone": "+1 (650) 412-9901",
+      "company": "Lumina Health",
+      "message": "Looking for a clean brand identity system and a responsive marketing web experience ahead of our Series A announcement.",
+      "source": "website",
+      "status": "contacted",
+      "created_at": "2026-08-27T03:55:18.578Z",
+      "updated_at": "2026-09-02T03:55:18.578Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_03",
+      "name": "Marcus Brody",
+      "email": "marcus@brodymoore.com",
+      "phone": null,
+      "company": "Brody & Moore",
+      "message": "Interested in a bespoke corporate web presence and secure client communication portal for our legal practice.",
+      "source": "website",
+      "status": "new",
+      "created_at": "2026-09-03T05:55:18.578Z",
+      "updated_at": "2026-09-03T05:55:18.578Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_04",
+      "name": "Clara Nguyen",
+      "email": "c.nguyen@arcadia-sys.com",
+      "phone": "+1 (212) 555-0188",
+      "company": "Arcadia Systems",
+      "message": "Inquiring about front-end design systems architecture and React component audits for our internal teams.",
+      "source": "website",
+      "status": "contacted",
+      "created_at": "2026-08-22T03:55:18.578Z",
+      "updated_at": "2026-08-28T03:55:18.578Z",
+      "converted_at": null
+    },
+    {
+      "id": "lead_05",
+      "name": "Daniel Vance",
+      "email": "daniel@vancecapital.org",
+      "phone": "+1 (312) 770-4321",
+      "company": "Vance Capital",
+      "message": "We require an understated, high-contrast investor deck and microsite for our third flagship venture fund.",
+      "source": "website",
+      "status": "converted",
+      "created_at": "2026-08-09T03:55:18.578Z",
+      "updated_at": "2026-08-23T03:55:18.578Z",
+      "converted_at": "2026-08-23T03:55:18.578Z"
+    },
+    {
+      "id": "lead_06",
+      "name": "Sophia Keller",
+      "email": "sophia.keller@ateliernord.de",
+      "phone": null,
+      "company": "Atelier Nord",
+      "message": "We are seeking an ongoing engineering partner to collaborate with our Munich studio on complex web apps.",
+      "source": "website",
+      "status": "contacted",
+      "created_at": "2026-09-03T23:55:18.578Z",
+      "updated_at": "2026-09-04T04:08:54.499Z",
+      "converted_at": null
+    }
+  ],
+  "lead_notes": [
+    {
+      "id": "note_01",
+      "lead_id": "lead_01",
+      "content": "Reviewed inquiry and verified Vertex Studio portfolio. Matches our target client profile.",
+      "created_at": "2026-08-17T03:55:18.578Z"
+    },
+    {
+      "id": "note_02",
+      "lead_id": "lead_01",
+      "content": "Completed 45-minute discovery call. Scope defined as design system + 14 dashboard screens. Budget agreed at $38,000.",
+      "created_at": "2026-08-23T03:55:18.578Z"
+    },
+    {
+      "id": "note_03",
+      "lead_id": "lead_01",
+      "content": "Statement of work signed and initial deposit received. Project kick-off scheduled.",
+      "created_at": "2026-08-31T03:55:18.578Z"
+    },
+    {
+      "id": "note_04",
+      "lead_id": "lead_02",
+      "content": "Sent capabilities deck and case studies on healthcare product work.",
+      "created_at": "2026-08-28T03:55:18.578Z"
+    },
+    {
+      "id": "note_05",
+      "lead_id": "lead_02",
+      "content": "Follow-up call booked for Thursday 10:00 AM PST with founders.",
+      "created_at": "2026-09-02T03:55:18.578Z"
+    },
+    {
+      "id": "note_06",
+      "lead_id": "lead_04",
+      "content": "Sent pricing guidelines for design system consultation sprints.",
+      "created_at": "2026-08-28T03:55:18.578Z"
+    },
+    {
+      "id": "note_07",
+      "lead_id": "lead_05",
+      "content": "Discovery session held with managing partner. Outlined microsite architecture.",
+      "created_at": "2026-08-15T03:55:18.578Z"
+    },
+    {
+      "id": "note_08",
+      "lead_id": "lead_05",
+      "content": "Contract executed. Delivery date targeted for end of month.",
+      "created_at": "2026-08-23T03:55:18.578Z"
+    },
+    {
+      "id": "note_mtmfbam5_qe5g",
+      "lead_id": "lead_mtmfb04g_z4xp",
+      "content": "Status updated from New to Contacted.",
+      "created_at": "2026-09-04T03:57:54.941Z"
+    },
+    {
+      "id": "note_mtmfbamm_ghea",
+      "lead_id": "lead_mtmfb04g_z4xp",
+      "content": "Called Julian Thorne. Discussed scope for Q4 portal redesign. Scheduled follow-up for Thursday.",
+      "created_at": "2026-09-04T03:57:54.958Z"
+    },
+    {
+      "id": "note_mtmfouu6_rmuq",
+      "lead_id": "lead_mtmfb04g_z4xp",
+      "content": "Status updated from Contacted to Converted.",
+      "created_at": "2026-09-04T04:08:27.678Z"
+    },
+    {
+      "id": "note_mtmfpfj7_fb8i",
+      "lead_id": "lead_06",
+      "content": "Status updated from New to Contacted.",
+      "created_at": "2026-09-04T04:08:54.499Z"
+    },
+    {
+      "id": "note_mtmg0sou_cai6",
+      "lead_id": "lead_mtmfzbny_gkcp",
+      "content": "meet me tommor",
+      "created_at": "2026-09-04T04:17:44.766Z"
+    },
+    {
+      "id": "note_mtmg0xkb_skvh",
+      "lead_id": "lead_mtmfzbny_gkcp",
+      "content": "Status updated from New to Contacted.",
+      "created_at": "2026-09-04T04:17:51.083Z"
+    },
+    {
+      "id": "note_mtmgx864_1x0n",
+      "lead_id": "lead_mtmfzbny_gkcp",
+      "content": "Status updated from Contacted to Converted.",
+      "created_at": "2026-09-04T04:42:57.820Z"
+    },
+    {
+      "id": "note_mtnvk0o8_kgti",
+      "lead_id": "lead_mtnviy3f_72vg",
+      "content": "Status updated from New to Contacted.",
+      "created_at": "2026-09-05T04:20:21.992Z"
+    }
+  ],
+  "email_notifications": [
+    {
+      "id": "notif_mto1rb56_o582",
+      "lead_id": "lead_mto1rb4p_gpfz",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: Vercel Deployment Verification",
+      "lead_name": "Vercel Deployment Verification",
+      "lead_email": "test@vercel.app",
+      "lead_company": null,
+      "lead_message": "Checking query path and normal path both work without 500 or 404",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mto1rb4p_gpfz",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T07:13:59.850Z"
+    },
+    {
+      "id": "notif_mto10hub_rbt3",
+      "lead_id": "lead_mto10htl_1ea6",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: Vercel Verification",
+      "lead_name": "Vercel Verification",
+      "lead_email": "vercel@test.com",
+      "lead_company": null,
+      "lead_message": "Verifying Vercel compatibility and zero 404 errors",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mto10htl_1ea6",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T06:53:08.819Z"
+    },
+    {
+      "id": "notif_mtnwnlsx_sllf",
+      "lead_id": "lead_mtnwnls3_jeqs",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: nikil patel · gogreen.co",
+      "lead_name": "nikil patel",
+      "lead_email": "nikil@gmail.com",
+      "lead_company": "gogreen.co",
+      "lead_message": "[Focus: Full-Stack Web App]",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtnwnls3_jeqs",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T04:51:08.961Z"
+    },
+    {
+      "id": "notif_mtnvsxry_dgb2",
+      "lead_id": "lead_mtnvsxru_3lxe",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: Audit Verification",
+      "lead_name": "Audit Verification",
+      "lead_email": "audit@verify.com",
+      "lead_company": null,
+      "lead_message": "Testing deployment readiness and api integrity",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtnvsxru_3lxe",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T04:27:18.142Z"
+    },
+    {
+      "id": "notif_mtnvopy1_akm8",
+      "lead_id": "lead_mtnvopxa_zjk1",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: neha sharma · nexon.co",
+      "lead_name": "neha sharma",
+      "lead_email": "nehasharma@gmail.com",
+      "lead_company": "nexon.co",
+      "lead_message": "[Focus: Full-Stack Web App]",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtnvopxa_zjk1",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T04:24:01.370Z"
+    },
+    {
+      "id": "notif_mtnvl71s_5c6m",
+      "lead_id": "lead_mtnvl71p_lmk9",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: varunkumar",
+      "lead_name": "varunkumar",
+      "lead_email": "varunkumar@gmail.com",
+      "lead_company": null,
+      "lead_message": "[Focus: Brand Architecture]",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtnvl71p_lmk9",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T04:21:16.912Z"
+    },
+    {
+      "id": "notif_mtnviy58_mhru",
+      "lead_id": "lead_mtnviy3f_72vg",
+      "recipient": "manu@gmail.com",
+      "subject": "New Lead Inquiry: arun",
+      "lead_name": "arun",
+      "lead_email": "arun@gmail.com",
+      "lead_company": null,
+      "lead_message": "[Focus: Design System & Figma]",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtnviy3f_72vg",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-05T04:19:32.060Z"
+    },
+    {
+      "id": "notif_mtmgfepj_oyq2",
+      "lead_id": "lead_test_sample",
+      "recipient": "admin@northlight.studio",
+      "subject": "New Lead Inquiry: Eleanor Vance (Test Lead) · Sample Venture Partners",
+      "lead_name": "Eleanor Vance (Test Lead)",
+      "lead_email": "eleanor.vance@sample-venture.com",
+      "lead_company": "Sample Venture Partners",
+      "lead_message": "This is a test notification to verify that new inquiry alerts are properly dispatched to your registered admin email address.",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_test_sample",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-04T04:29:06.487Z"
+    },
+    {
+      "id": "notif_mtmgauz8_hl4p",
+      "lead_id": "lead_mtmgauyp_3syf",
+      "recipient": "admin@northlight.studio",
+      "subject": "New Lead Inquiry: Marcus Vance · Vance Design Co",
+      "lead_name": "Marcus Vance",
+      "lead_email": "marcus@vancecreative.com",
+      "lead_company": "Vance Design Co",
+      "lead_message": "Looking for a full brand overhaul and design system.",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtmgauyp_3syf",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-04T04:25:34.292Z"
+    },
+    {
+      "id": "notif_mtmfzbor_155t",
+      "lead_id": "lead_mtmfzbny_gkcp",
+      "recipient": "admin@northlight.studio",
+      "subject": "New Lead Inquiry: anu",
+      "lead_name": "anu",
+      "lead_email": "anu@gmail.com",
+      "lead_company": null,
+      "lead_message": "marketing website",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtmfzbny_gkcp",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-04T04:16:36.075Z"
+    },
+    {
+      "id": "notif_mtmfw4ph_p39g",
+      "lead_id": "lead_mtmfw4p6_6ht5",
+      "recipient": "admin@northlight.studio",
+      "subject": "New Lead Inquiry: Amara Osei · Apex Ventures",
+      "lead_name": "Amara Osei",
+      "lead_email": "amara@apex-ventures.io",
+      "lead_company": "Apex Ventures",
+      "lead_message": "We are looking to overhaul our digital brand architecture ahead of our Series B launch.",
+      "lead_url": "https://ais-dev-xhlo6jzosazacf7oafstdo-651570229921.asia-southeast1.run.app/admin/leads/lead_mtmfw4p6_6ht5",
+      "status": "delivered",
+      "sent_via": "Dev Email Dispatcher",
+      "created_at": "2026-09-04T04:14:07.061Z"
+    }
+  ]
+}
